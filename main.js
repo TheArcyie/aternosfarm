@@ -16,7 +16,6 @@ var bedPosition;
 var chestPosition;
 var mcData;
 
-bot.on('kicked', (reason, loggedIn) => console.log(reason, loggedIn));
 bot.on('error', err => console.log(err));
 
 bot.once('spawn', ()=>{
